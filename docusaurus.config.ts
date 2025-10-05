@@ -75,9 +75,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Cardexscan',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Cardexscan Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -85,11 +85,10 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/hydracds',
           label: 'GitHub',
           position: 'right',
         },
